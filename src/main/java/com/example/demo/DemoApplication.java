@@ -31,6 +31,6 @@ class MyRestController {
 
 	@GetMapping("/hello")
 	public String helloWorld() {
-		return "greetings";
+		return "Hello World";
 	}
 }
